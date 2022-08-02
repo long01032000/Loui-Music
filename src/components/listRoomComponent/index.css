@@ -1,0 +1,53 @@
+.listRoomComponent{
+    padding: 35px 0 0 200px;
+    margin-left: 155px;
+    
+}
+.listRoom-component{
+    padding-right: 80px;
+}
+
+.lisRoom-component-list{
+
+    padding: 50px;
+
+}
+.listRoom-component-list-item{
+
+    padding: 30px;
+    border-radius: 10px;
+    background: rgb(158, 145, 145);
+    transition-duration: 1s;
+    margin: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000000;
+}
+.listRoom-component-list-item:hover{
+    transform: scale(1.025);
+}
+.list-componrnt-list-item-img{
+    width: 60px;
+    display: flex;
+    align-items: center;
+}
+.list-componrnt-list-item-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.list-componrnt-list-item-title{
+
+    white-space: nowrap;
+    margin-left: 16px;
+
+}
+.room-name-input{
+    width: 100%;
+    border: none;
+}
+.room-name-input:focus-visible{
+    outline: none;
+}

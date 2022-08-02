@@ -1,0 +1,8 @@
+.musicroom-container{
+    display: flex;
+    gap: 0 100px;
+    flex-direction: column;
+}
+#root{
+    height: 0!important;
+}

@@ -1,0 +1,25 @@
+
+.activenow-component {
+  margin-left: 50px;
+  margin-top: 17px;
+}
+.listactive-component{
+  width: 385px;
+}
+.listactive-componet-center-header {
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+  justify-content: flex-start;
+}
+.activenow-component-container{
+  margin-top: 23px;
+}
+.activenow-component-heaeder h3 {
+  font-family: var(--bs-font-sans-serif);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}

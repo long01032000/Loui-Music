@@ -1,0 +1,6 @@
+.play-list {
+  display: flex;
+  gap: 50px 105px;
+  flex-wrap: wrap;
+  justify-content: center;
+}

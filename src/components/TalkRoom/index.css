@@ -1,0 +1,55 @@
+.talk-room-component {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 28px 0;
+}
+.talk-room-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(
+    41.76deg,
+    #6b11cf -2.2%,
+    rgba(255, 255, 255, 0) 108.57%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.talk-room-main {
+  display: flex;
+  gap: 0 40px;
+  align-items: center;
+}
+.talk-room-btn {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+  padding: 15px 8px;
+  background: #d62b2b;
+  border-radius: 17px;
+}
+.talk-room-btn span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+.talk-room-btn svg {
+  font-size: 20px;
+  color: #ffffff;
+}
+.talk-room-main span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+}

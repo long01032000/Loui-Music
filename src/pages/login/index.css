@@ -1,0 +1,77 @@
+.login-component{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #121323;
+}
+.login-component-content{
+    
+    width: 500px;
+    padding: 50px 30px 50px 30px;
+    background: #0b0a13;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.login-component-content div h3{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 200.91%;
+    color: #EEEEEE;
+    text-align: center;
+}
+.login-component-content div span{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 128.91%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.login-component-content div button{
+    padding: 16px 115px;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFCFC;
+    border: none;
+    background: #E688AF;
+    white-space: nowrap;
+}
+.login-component-content div input{
+    width: 100%;
+    padding: 10px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.login-component-content p{
+    color: #FFFFFF;
+    line-height: 25px;
+}
+.signUpButton{
+    margin-top: 20px;
+}
+.btn-logn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.sign-up{
+    color: #E688AF;
+}

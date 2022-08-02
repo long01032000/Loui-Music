@@ -1,0 +1,7 @@
+.talkmember-component{
+    display: flex;
+    width: 100%;
+    max-width: 860px;
+    flex-wrap: wrap;
+    gap: 60px;
+}

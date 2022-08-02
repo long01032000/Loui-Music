@@ -1,0 +1,28 @@
+.custome-container {
+  width: 100%;
+  max-width: 520px;
+}
+.custome-container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.custome-container-header h1{
+  font-family: var(--bs-font-sans-serif);
+  font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 59px;
+}
+.custome-container-header  span{
+  font-family: var(--bs-font-sans-serif);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+    line-height: 17px;
+  color: #858484;
+}
+
+.custome-container-header a{
+  text-decoration: none!important;
+}

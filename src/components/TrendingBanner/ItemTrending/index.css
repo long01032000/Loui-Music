@@ -1,0 +1,12 @@
+.item-trending-component{
+    min-width: 290px;
+    height: 426px;
+    border-radius: 72px;
+    overflow-x: overlay ;
+    overflow-y: hidden;
+}
+.item-trending-component img{
+    width: 100%;
+    height: 100%;
+    border-radius: 72px;
+}

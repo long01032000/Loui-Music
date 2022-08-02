@@ -1,0 +1,123 @@
+
+.pro-sidebar-header{
+  padding-bottom: 10px;
+}
+
+.sidebar-title {
+  font-family: var(--bs-font-sans-serif);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ffffff;
+  padding: 30px 98px 0 48px;
+  border-bottom: none !important;
+}
+.pro-sidebar-inner{
+    background-color: #000000 !important;
+    height: 100vh !important;
+}
+
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout{
+  
+  overflow-y: hidden!important;
+}
+.pro-sidebar{
+    width: 357px !important;
+    min-width: 357px !important;
+    height: 750px !important;
+    position: fixed !important;
+}
+.sidebar-content .pro-item-content{
+  font-family: var(--bs-font-sans-serif);
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+color: #808080;
+}
+.pro-item-content{
+  display: flex;
+  align-items: center;
+  gap: 0 47px;
+}
+.pro-item-content svg{
+  font-size: 24px;
+}
+.sidebar-content{
+  padding: 0 0 0 32px;
+}
+.pro-inner-item{
+  padding: 14px 35px 14px 20px;
+}
+.sidebar-header{
+  padding-bottom: 10px;
+  color: #FFFFFF !important;
+}
+.sidebar-header .pro-item-content{
+  color: #ffffff;
+}
+.pro-sidebar .pro-menu{
+  padding-top: 5px!important;
+  padding-bottom: 5px!important;
+}
+.pro-sidebar .pro-menu a{
+  font-weight: 600!important;
+  font-size: 19px;
+  line-height: 22px;
+}
+.pro-sidebar-footer{
+  border-top: none !important;
+  padding: 8px 35px 35px;
+}
+.pro-sidebar-footer .audio-header img{
+  
+  height: 180px;
+  width: 100%;
+  border-radius: 20px;
+}
+.audio-header-image{
+  padding: 3px 30px 3px 30px;
+}
+.audio-header{
+  border-radius: 36px 36px 0 0;
+}
+.audio-container{
+  border-radius: 36px;
+  background: radial-gradient(146.18% 74.66% at 58.77% 5.48%, rgba(231, 55, 131, 0.74) 0%, #1F1132 99.08%);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.audio-container h4{
+  font-size: 19px;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 5px;
+}
+.audio-container .rhap_container{
+  background-color: initial !important;
+  padding: 7px 26px !important;
+}
+
+.rhap_additional-controls .rhap_repeat-button{
+  font-size:20px;
+}
+
+.rhap_main-controls .rhap_main-controls-button{
+  font-size:30px;
+}
+.rhap_volume-controls .rhap_volume-button{
+  font-size: 25px;
+}
+
+.rhap_volume-controls .rhap_volume-bar-area{
+
+}
+
+.cover-text-sidebar{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 261px;
+    margin-right: 30px;
+    margin-left: 30px;
+}

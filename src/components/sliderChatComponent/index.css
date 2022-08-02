@@ -1,0 +1,33 @@
+.slider-component{
+    width: 75%;
+    padding: 0px 0 0 345px;
+    margin-top: 35px;
+}
+.img-slider{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-slider img{
+    width: 100%;
+    border-radius: 50%;
+    width: 407px;
+    height: 400px;
+    
+}
+.slider-component .rhap_container{
+    box-shadow: none;
+   
+}
+.slider-header{
+    display: flex;
+    justify-content: space-between;
+}
+.slider-header-icon{
+    padding: 8px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+}

@@ -1,0 +1,133 @@
+.likesong-component{
+    height: fit-content;
+}
+.likesong-header{
+    display: flex;
+    align-items: center;
+    gap: 0 24px;
+    height: 300px;
+}
+.likesong-header-left img{
+    width: 300px;
+    height: 300px;
+}
+.likesong-header-right{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.likesong-header-right h2{
+    font-size: 16px;
+    margin-top: 4px;
+    line-height: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.likesong-header-right span h1{
+    margin: 0;
+    padding: 0.08em 0px;
+    visibility: visible;
+    width: 100%;
+    font-size: 96px;
+    line-height: 96px;
+    text-transform: none;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: -0.04em;
+    box-sizing: border-box;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+.likesong-avatar{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    gap: 0 10px;
+}
+
+.likesong-avatar-img{
+    width: 30px;
+    height: 30px;
+}
+.likesong-avatar-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+/* .likesong-container-icon{
+    width: 56px;
+    height: 56px;
+    background: green;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.row-img{
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+.row-img img{
+    width: 40px;
+    height: 40px;
+}
+.title-abum-name{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-transform: none;
+    letter-spacing: normal;
+    font-weight: 400;
+    color: cornflowerblue;
+}
+.title-abum span{
+    font-size: 0.875rem;
+    line-height: 1rem;
+    text-transform: none;
+    letter-spacing: normal;
+    font-weight: 400;
+}
+.row-img{
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+.span-to-view{
+    font-size: 0.875rem;
+    line-height: 1rem;
+    text-transform: none;
+    letter-spacing: normal;
+    font-weight: 400;
+    color: #6a6a6a;
+    text-decoration: none;
+}
+.gap-to-view{
+    display: flex;
+    margin-top: 6px;
+    gap: 0 5px;
+}
+thead{
+    font-size: 0.75rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    color: #6a6a6a;
+}
+.likesong-container-header{
+    margin: 20px 0;
+}
+.likesong-header-right h2{
+    color: #ffffff;
+}
+.likesong-contaniner{
+    width: calc(100% -  155px);
+}
+td,th{
+    border-style: hidden;
+}
+.table>:not(caption)>*>*{
+    padding: 1rem 1rem;
+    border-bottom-width: 0;
+}

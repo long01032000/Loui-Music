@@ -1,0 +1,6 @@
+.table>:not(caption)>*>*{
+    border-bottom-width: .5px;
+}
+.table>:not(:last-child)>:last-child>*{
+    border-bottom-color: currentColor;
+}

@@ -1,0 +1,33 @@
+.message-container img {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+}
+.message-component {
+  margin-left: auto;
+}
+.message-container {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+.message-container span {
+  color: #fff;
+}
+.mess-content{
+  padding: 15px 20px;
+
+  height: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  background: rgb(8, 154, 35);
+  border-radius: 10px;
+
+}
+.user-name{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 160px;
+  color: black !important;
+}

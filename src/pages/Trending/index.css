@@ -1,0 +1,11 @@
+.trending-components{
+    display: flex;
+}
+.trending-components .test{
+   
+}
+/* .item-trending{
+    display: flex;
+    gap: 0 20px;
+    overflow-x: scroll;
+} */

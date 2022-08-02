@@ -1,0 +1,9 @@
+.avatar-component{
+    width: 47px;
+    height: 47px;
+}
+.avatar-component img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}

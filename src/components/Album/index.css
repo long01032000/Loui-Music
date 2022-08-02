@@ -1,0 +1,9 @@
+.border-album{
+    border-radius: 5px;
+}
+.border-album-1{
+    border-radius: 12px;
+}
+.album-icon svg:nth-child(1),.album-icon svg:nth-child(2){
+    color: #1ed760;
+}
